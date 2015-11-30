@@ -114,6 +114,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<?php echo anchor('api/', 'REST with DB'); ?> |
 						<?php echo anchor('api/rest_user/', 'REST user with Form'); ?> 
 				</li>
+				<li>
+					<?php echo anchor('tags/node', 'Ajax App to tag a Node with google map'); ?> 
+				</li>
 
 
 		</ul>
