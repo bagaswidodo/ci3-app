@@ -15,7 +15,7 @@
 	  <div class="container container-fluid">
 	    <div class="navbar-header">
 	      <a class="navbar-brand" href="#">
-	        Brand
+	        App Node Tag
 	      </a>
 	    </div>
 	  </div>
