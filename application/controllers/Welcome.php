@@ -219,5 +219,26 @@ class Welcome extends CI_Controller {
         }
 
 
+	public function bread()
+	{
+		// load Breadcrumbs
+		$this->load->library('breadcrumbs');
+
+		// add breadcrumbs
+		$this->breadcrumbs->push('Section', '/section');
+		$this->breadcrumbs->push('Page', '/section/page');
+		$this->breadcrumbs->push('News', '/section/page/news');
+
+		// unshift crumb
+		//$this->breadcrumbs->unshift('Home', '/');
+
+		// output
+		echo $this->breadcrumbs->show();
+	}
+	
+	public function material()
+	{
+		echo "Material Design soon, Here !";
+	}
 
 }
