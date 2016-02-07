@@ -117,6 +117,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<li>
 					<?php echo anchor('tags/node', 'Ajax App to tag a Node with google map'); ?> 
 				</li>
+				<li>
+					<?php echo anchor('didanurwanda/wdesktop', 'CRUD : CodeIgniter 3 & W2-desktop By didanurwanda.com'); ?> 
+					
+				</li>
 
 
 		</ul>
