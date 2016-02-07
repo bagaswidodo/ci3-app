@@ -122,8 +122,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				</li>
 				<li>
 					<?php echo anchor('didanurwanda/ajax_upload', 'Ajax upload By didanurwanda.com'); ?> 
-				</li><li>
+				</li>
+				<li>
 					<?php echo anchor('didanurwanda/easy_ui', 'Jquery Easyui By didanurwanda.com'); ?> 
+				</li>
+				<li>
+					<?php echo anchor('didanurwanda/export_excel', 'Export Excel'); ?> 
 				</li>
 
 
