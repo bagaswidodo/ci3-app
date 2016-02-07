@@ -119,7 +119,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				</li>
 				<li>
 					<?php echo anchor('didanurwanda/wdesktop', 'CRUD : CodeIgniter 3 & W2-desktop By didanurwanda.com'); ?> 
-					
+				</li>
+				<li>
+					<?php echo anchor('didanurwanda/ajax_upload', 'Ajax upload By didanurwanda.com'); ?> 
+				</li><li>
+					<?php echo anchor('didanurwanda/easy_ui', 'Jquery Easyui By didanurwanda.com'); ?> 
 				</li>
 
 
